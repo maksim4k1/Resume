@@ -1,9 +1,14 @@
+import Header from "./components/Header";
+import AppRouters from "./components/AppRouters";
 import './styles/App.scss';
 
 function App() {
   return (
     <div className="App">
-      <div className="container" style={{margin: "75px auto"}}></div>
+      <Header/>
+      <div className="container" style={{padding: "75px 10px"}}>
+        <AppRouters/>
+      </div>
     </div>
   );
 }
