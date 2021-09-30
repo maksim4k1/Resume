@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <div className="container" style={{margin: "75px auto"}}>
+      <div className="container" style={{padding: "75px 10px"}}>
         <AppRouters/>
       </div>
     </div>
